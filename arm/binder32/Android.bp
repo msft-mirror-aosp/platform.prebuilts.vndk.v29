@@ -2,7 +2,7 @@
 // DO NOT EDIT
 
 package {
-    default_applicable_licenses: ["Android-Apache-2.0"],
+    default_applicable_licenses: ["prebuilts_vndk_v29_license"],
 }
 
 vndk_prebuilt_shared {

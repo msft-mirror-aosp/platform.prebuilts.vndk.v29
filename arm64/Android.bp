@@ -2,12 +2,6 @@
 // DO NOT EDIT
 
 package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "prebuilts_vndk_v29_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-BSD
-    //   SPDX-license-identifier-MIT
     default_applicable_licenses: ["prebuilts_vndk_v29_license"],
 }
 
