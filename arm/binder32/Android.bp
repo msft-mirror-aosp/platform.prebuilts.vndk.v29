@@ -2565,7 +2565,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libaudioroute.so-notice",
+    licenses: ["vndk-v29-libaudioroute.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libaudioroute.so"],
@@ -2634,7 +2634,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libcap.so-notice",
+    licenses: ["vndk-v29-libcap.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libcap.so"],
@@ -2737,7 +2737,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libcrypto.so-notice",
+    licenses: ["vndk-v29-libcrypto.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libcrypto.so"],
@@ -2772,7 +2772,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libcurl.so-notice",
+    licenses: ["vndk-v29-libcurl.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libcurl.so"],
@@ -2824,7 +2824,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libevent.so-notice",
+    licenses: ["vndk-v29-libevent.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libevent.so"],
@@ -2842,7 +2842,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libexif.so-notice",
+    licenses: ["vndk-v29-libexif.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libexif.so"],
@@ -2860,7 +2860,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libexpat.so-notice",
+    licenses: ["vndk-v29-libexpat.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libexpat.so"],
@@ -2930,7 +2930,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libhardware_legacy.so-notice",
+    licenses: ["vndk-v29-libhardware_legacy.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libhardware_legacy.so"],
@@ -2982,7 +2982,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libjpeg.so-notice",
+    licenses: ["vndk-v29-libjpeg.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libjpeg.so"],
@@ -3000,7 +3000,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libkeymaster_messages.so-notice",
+    licenses: ["vndk-v29-libkeymaster_messages.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libkeymaster_messages.so"],
@@ -3018,7 +3018,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libkeymaster_portable.so-notice",
+    licenses: ["vndk-v29-libkeymaster_portable.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libkeymaster_portable.so"],
@@ -3036,7 +3036,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libldacBT_abr.so-notice",
+    licenses: ["vndk-v29-libldacBT_abr.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libldacBT_abr.so"],
@@ -3054,7 +3054,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libldacBT_enc.so-notice",
+    licenses: ["vndk-v29-libldacBT_enc.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libldacBT_enc.so"],
@@ -3072,7 +3072,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-liblz4.so-notice",
+    licenses: ["vndk-v29-liblz4.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/liblz4.so"],
@@ -3090,7 +3090,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libmedia_helper.so-notice",
+    licenses: ["vndk-v29-libmedia_helper.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libmedia_helper.so"],
@@ -3108,7 +3108,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libmedia_omx.so-notice",
+    licenses: ["vndk-v29-libmedia_omx.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libmedia_omx.so"],
@@ -3143,7 +3143,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libminijail.so-notice",
+    licenses: ["vndk-v29-libminijail.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libminijail.so"],
@@ -3178,7 +3178,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libnetutils.so-notice",
+    licenses: ["vndk-v29-libnetutils.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libnetutils.so"],
@@ -3196,7 +3196,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libnl.so-notice",
+    licenses: ["vndk-v29-libnl.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libnl.so"],
@@ -3214,7 +3214,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libpcre2.so-notice",
+    licenses: ["vndk-v29-libpcre2.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libpcre2.so"],
@@ -3232,7 +3232,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libpiex.so-notice",
+    licenses: ["vndk-v29-libpiex.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libpiex.so"],
@@ -3267,7 +3267,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libpower.so-notice",
+    licenses: ["vndk-v29-libpower.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libpower.so"],
@@ -3302,7 +3302,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libprotobuf-cpp-full.so-notice",
+    licenses: ["vndk-v29-libprotobuf-cpp-full.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-full.so"],
@@ -3320,7 +3320,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libprotobuf-cpp-lite.so-notice",
+    licenses: ["vndk-v29-libprotobuf-cpp-lite.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-lite.so"],
@@ -3338,7 +3338,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libpuresoftkeymasterdevice.so-notice",
+    licenses: ["vndk-v29-libpuresoftkeymasterdevice.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libpuresoftkeymasterdevice.so"],
@@ -3390,7 +3390,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libsoftkeymasterdevice.so-notice",
+    licenses: ["vndk-v29-libsoftkeymasterdevice.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libsoftkeymasterdevice.so"],
@@ -3408,7 +3408,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libspeexresampler.so-notice",
+    licenses: ["vndk-v29-libspeexresampler.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libspeexresampler.so"],
@@ -3426,7 +3426,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libsqlite.so-notice",
+    licenses: ["vndk-v29-libsqlite.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libsqlite.so"],
@@ -3444,7 +3444,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libssl.so-notice",
+    licenses: ["vndk-v29-libssl.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libssl.so"],
@@ -3496,7 +3496,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libstagefright_foundation.so-notice",
+    licenses: ["vndk-v29-libstagefright_foundation.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_foundation.so"],
@@ -3514,7 +3514,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libstagefright_omx.so-notice",
+    licenses: ["vndk-v29-libstagefright_omx.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_omx.so"],
@@ -3532,7 +3532,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libstagefright_omx_utils.so-notice",
+    licenses: ["vndk-v29-libstagefright_omx_utils.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libstagefright_omx_utils.so"],
@@ -3584,7 +3584,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libtinyalsa.so-notice",
+    licenses: ["vndk-v29-libtinyalsa.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libtinyalsa.so"],
@@ -3602,7 +3602,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libtinyxml2.so-notice",
+    licenses: ["vndk-v29-libtinyxml2.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libtinyxml2.so"],
@@ -3620,7 +3620,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libui.so-notice",
+    licenses: ["vndk-v29-libui.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libui.so"],
@@ -3672,7 +3672,7 @@ vndk_prebuilt_shared {
     vndk: {
         enabled: true,
     },
-    notice: ":vndk-v29-libxml2.so-notice",
+    licenses: ["vndk-v29-libxml2.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-core/libxml2.so"],
@@ -4053,7 +4053,7 @@ vndk_prebuilt_shared {
         support_system_process: true,
         private: true,
     },
-    notice: ":vndk-v29-libblas.so-notice",
+    licenses: ["vndk-v29-libblas.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libblas.so"],
@@ -4072,7 +4072,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libc++.so-notice",
+    licenses: ["vndk-v29-libc++.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libc++.so"],
@@ -4092,7 +4092,7 @@ vndk_prebuilt_shared {
         support_system_process: true,
         private: true,
     },
-    notice: ":vndk-v29-libcompiler_rt.so-notice",
+    licenses: ["vndk-v29-libcompiler_rt.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libcompiler_rt.so"],
@@ -4111,7 +4111,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libcutils.so-notice",
+    licenses: ["vndk-v29-libcutils.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libcutils.so"],
@@ -4130,7 +4130,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libhardware.so-notice",
+    licenses: ["vndk-v29-libhardware.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libhardware.so"],
@@ -4149,7 +4149,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libhidlbase.so-notice",
+    licenses: ["vndk-v29-libhidlbase.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libhidlbase.so"],
@@ -4186,7 +4186,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libhidltransport.so-notice",
+    licenses: ["vndk-v29-libhidltransport.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libhidltransport.so"],
@@ -4205,7 +4205,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libhwbinder.so-notice",
+    licenses: ["vndk-v29-libhwbinder.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libhwbinder.so"],
@@ -4224,7 +4224,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libhwbinder_noltopgo.so-notice",
+    licenses: ["vndk-v29-libhwbinder_noltopgo.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libhwbinder_noltopgo.so"],
@@ -4333,7 +4333,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libutils.so-notice",
+    licenses: ["vndk-v29-libutils.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libutils.so"],
@@ -4352,7 +4352,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libutilscallstack.so-notice",
+    licenses: ["vndk-v29-libutilscallstack.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libutilscallstack.so"],
@@ -4371,7 +4371,7 @@ vndk_prebuilt_shared {
         enabled: true,
         support_system_process: true,
     },
-    notice: ":vndk-v29-libz.so-notice",
+    licenses: ["vndk-v29-libz.so-license"],
     arch: {
         arm: {
             srcs: ["arch-arm-armv7-a-neon/shared/vndk-sp/libz.so"],
